@@ -1,0 +1,82 @@
+/*
+    ##Device = Tablets.Ipad (Landscpae)
+    ##Screen = 1025px To 1280px
+*/
+@media(min-width:1025px) and (max-width:12800px)
+{
+   .full-text { display: inline-block; }
+    .short-text { display: none; }
+    
+}
+/*
+    ##Device = Tablets.Ipad (portrait)
+    ##Screen = 768px To 1024px
+*/
+@media(min-width:768px) and (max-width:1024px)
+{
+ 
+    .full-text { display: inline-block; }
+    .short-text { display: none; }
+    
+}
+/*
+    ##Device =  Mobiles (Landscpae)
+    ##Screen =  481px To 767px
+*/
+@media(min-width:481px) and (max-width:767px)
+{
+   .HeadCaption {
+          font-size: 38px;
+          line-height: 50px;
+    }
+    .Headparagraph {
+           font-size: 18px;
+          line-height: 30px;
+        }
+ 
+    .get-a-quote
+    {
+          height: 34px;
+          width: 70px;
+          font-size: 12px;
+          line-height: 20px;
+    }
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+    .title {
+        font-size: 30px;
+        line-height: 20px;
+      }
+      .title {
+        font-size: 25px;
+      }
+}
+/*
+    ##Device = Mobiles. (portrait)
+    ##Screen =  320px To 480px
+*/
+@media(min-width:320px) and (max-width:480px)
+{
+    .HeadCaption {
+          font-size: 38px;
+          line-height: 50px;
+    }
+    .Headparagraph {
+           font-size: 18px;
+          line-height: 30px;
+        }
+ 
+   .get-a-quote
+    {
+          height: 34px;
+          width: 70px;
+          font-size: 12px;
+          line-height: 20px;
+    }
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+    .title {
+        font-size: 25px;
+      }
+}
+

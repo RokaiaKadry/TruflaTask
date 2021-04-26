@@ -1,0 +1,187 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Roboto", "Open Sans";
+  color: #42415B;
+}
+
+.Dv_Headerimg_2 {
+  background-image: url(../../img/hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  font-size: 60px;
+}
+
+.HeadCaption {
+  font-size: 66px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.Headparagraph {
+  height: 58px;
+  width: 556px;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+header {
+  height: 80px;
+  background-color: white;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #42415B;
+}
+
+a:hover {
+  color: #DB8939;
+}
+
+.btn-Orange {
+  height: 50px;
+  width: 160px;
+  border-radius: 4px;
+  background-color: #DB8939;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.top_nav {
+  background-color: #9ca2c6;
+  height: 50px;
+}
+
+.bg_White {
+  background-color: white;
+}
+
+.bg_grey {
+  background-color: #f8f9fa;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+li {
+  line-height: 2;
+}
+
+.card {
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e9ecef;
+  background: white;
+  transition: 0.15s all ease-in-out;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #ced4da;
+  box-shadow: 0 10px 20px -5pxrgba 0, 0, 0, 0.1;
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: bold;
+}
+
+.card-body > p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.card-body-details {
+  color: #DB8939;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.Parent_lists > li {
+  display: inline-block;
+  padding: 15px 10px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.Parent_lists > li:hover {
+  color: #DB8939;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.heading-small {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.paragraph-small {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.something-goes > h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h5 > svg,
+currentColor {
+  height: 24px;
+  width: 24px;
+  color: grey;
+}

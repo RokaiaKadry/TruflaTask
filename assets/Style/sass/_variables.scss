@@ -1,0 +1,15 @@
+$Primary-font-color:#42415B;
+$Button-Bg-color:#DB8939;
+$white-color:white;
+$top-nav-color:#9ca2c6;
+$bg-grey-color:#f8f9fa;
+@mixin FontStyle($fontSize,$lineHeight  ,$IsBold:false) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    @if $IsBold {
+        font-weight: bold;
+    }
+ }
+$header-size:15px;
+$Paragragh-Size:10px;
+.uppercase {  text-transform: uppercase; }
